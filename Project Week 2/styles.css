@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+}
+
+main > section{
+    padding: 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+section a{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+
+footer{
+    background-color: #333;
+    color: antiquewhite;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    display: block;
+}
+
+nav a:hover {
+    background-color: lightcoral;
+    color: white;
+}
