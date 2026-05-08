@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="SDC 260 Project">
+        <meta name="keywords" content="HTML, SDC, Project">
+        <meta name="author " content="Cameron Dean">
+        <meta name="viewport " content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to My Website</h1>
+        </header>
+<!-- -------------------------Navigational Menu-------------------------------------------- -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+<!-- --------------------------Main Body---------------------------------------------  -->
+        <main id="home">
+            <section>
+                <h2>About</h2>
+                <p>This website serves as a place for myselef and interested parties to get a quick snapshot of the projects that I am working on and have completed.</p>
+            </section>
+
+            <section id="project">
+                <h2>Projects</h2>
+               
+                <!-- Project 1 -->
+                 <div class="project">
+                    <h3>Basic OOP Calculator</h3>
+                    <p>A console based calculator built using Java during my previous term in intro to OOP w/ Java.</p>
+
+                    <!-- Image Placeholder -->
+                     <div class="placeholder">Image Placeholder</div>
+                 </div>
+
+                 <!-- Project 2 -->
+                  <div class="project">
+                    <h3>Example Of Turn Based Combat Using C </h3>
+                    <p>My first attempt at using C to build systems that use RNG to determine encounter chance, enemy health, enemy attack and damage, and user attack damage. Allowed the user to choose their attack
+                        and would display a message each time the encounter was skipped, to simulate movement in the in-game environment that has a chance to trigger the encounter event.
+                    </p>
+
+                    <!-- Image Placeholder -->
+                     <div class="placeholder">Image Placeholder</div>
+                  </div>
+
+                  <!-- Project Table  -->
+                   <table>
+                    
+                    <!-- Table Caption -->
+                     <caption>Project Information Table</caption>
+
+                     <!-- Column Group -->
+                      
+                      <colgroup>
+                        <col class="alt-column">
+                        <col>
+                        <col class="alt-column">
+                      </colgroup>
+
+                      <!-- Table Head -->
+                       <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Language</th>
+                        </tr>
+                       </thead>
+
+                      <!-- Table Body -->
+                       <tbody>
+                        <tr>
+                            <td>Project One</td>
+                            <td>Basic OOP Calculator</td>
+                            <td>Java</td>
+                        </tr>
+
+                        <tr>
+                            <td>Goblin Slayer</td>
+                            <td>Turn Based Combat Sim</td>
+                            <td>C</td>
+                        </tr>
+                       </tbody>
+
+                      <!-- Table Footer -->
+                       <tfoot>
+                        <tr>
+                            <td colspan="3">More Projects To Come</td>
+                        </tr>
+                       </tfoot>
+                   </table>
+
+
+            </section>
+<!---------------------------- Contact Section ----------------------------------------------------->
+
+          <section class="contact-section" id="contact">
+            <h2>Want to reach out to us? Fill out the form below!</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required/>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required/>
+
+                <label for="subject">Subject:</label>
+                <input type="subject" id="subject" name="subject"/>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+          </section>
+
+            <section>
+                <h2>Contact Info</h2>
+                <p><a href="mailto:camdea1617@students.ecpi.edu">camdea1617@students.ecpi.edu</a></p>
+            </section>
+
+        </main>
+
+        <footer>Week 4 Project &mdash; W.I.P</footer>
+
+    </body>
+</html>
