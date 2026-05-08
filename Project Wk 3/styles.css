@@ -1,0 +1,143 @@
+
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* Header */
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+}
+
+/* Nav */
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: lightcoral;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Main Sections */
+section{
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: aliceblue;
+
+    /* Smooth Zoom Effect */
+    transition: transform o.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+section a{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+/* Project Boxes */
+.project {
+    margin-bottom: 20px;
+}
+
+/* Image Placeholders */
+
+.placeholder {
+    width: 100%;
+    height: 120px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+footer{
+    background-color: #333;
+    color: antiquewhite;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ===============================================
+        TABLE STYLING
+   =============================================     
+*/
+caption{
+    background-color: #333;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Borders */
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Table Padding */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Header Background */
+thead {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
+tfoot {
+    background-color: coral;
+    font-weight: bold;
+}
+
+/* Column Colors */
+.alt-column {
+    background-color: brown;
+}
+
+
+
